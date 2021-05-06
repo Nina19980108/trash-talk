@@ -1,1 +1,60 @@
-<h1 class="text-light">hi</h1>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">幹話產生器</span>
+  </div>
+</nav>
+
+<div class="container d-flex flex-column align-items-center mt-5 fw-light">
+
+  <h2 class="fw-light" style="color: rgba(240, 248, 255, 0.673);">你想對誰說幹話？</h2>
+
+  <form action="/" method="GET">
+
+    <div class="container d-flex justify-content-center mt-2">
+
+      <div class="form-check form-check-inline d-flex flex-column align-items-center m-5">
+        <label class="form-check-label d-flex flex-column align-items-center" for="engineer" style="color: aliceblue;">
+          <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+            alt="engineer-img" style="width: 200px; height: 200px; object-fit:cover;">
+          <p class="mt-2">超憤怒 工程師</p>
+        </label>
+        <input class="form-check-input" style="margin-left: 0.5rem;" type="radio" name="target" id="engineer"
+          value="engineer">
+      </div>
+
+      <div class="form-check form-check-inline d-flex flex-column align-items-center m-5">
+        <label class="form-check-label d-flex flex-column align-items-center" for="designer" style="color: aliceblue;">
+          <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+            alt="designer-img" style="width: 200px; height: 200px; object-fit:cover;">
+          <p class="mt-2">氣噗噗 設計師</p>
+        </label>
+        <input class="form-check-input" style="margin-left: 0.5rem;" type="radio" name="target" id="designer"
+          value="designer">
+      </div>
+
+      <div class="form-check form-check-inline d-flex flex-column align-items-center m-5">
+        <label class="form-check-label d-flex flex-column align-items-center" for="entrepreneur"
+          style="color: aliceblue;">
+          <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+            alt="entrepreneur-img" style="width: 200px; height: 200px; object-fit:cover;">
+          <p class="mt-2">怒氣滿滿 創業家</p>
+        </label>
+        <input class="form-check-input" style="margin-left: 0.5rem;" type="radio" name="target" id="entrepreneur"
+          value="entrepreneur">
+      </div>
+
+    </div>
+
+    <div class="d-flex align-items-start m-5" style="width: 100%;">
+
+      <button type="submit" class="btn btn-outline-secondary mx-3"
+        style="color: rgba(240, 248, 255, 0.879);">產生幹話</button>
+      <textarea name="trash-talk" id="trash-talk" cols="100" rows="3"></textarea>
+
+    </div>
+
+
+  </form>
+
+
+</div>
