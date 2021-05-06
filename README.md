@@ -2,6 +2,10 @@
 
 一個使用 Node.js + Express 打造的幹話產生器，可以選擇不同的人物產生不同的幹話。
 
+## 專案畫面
+
+![image](https://raw.githubusercontent.com/Nina19980108/trash-talk/master/public/img/homePage.png)
+
 ## Features - 產品功能
 
 1. 使用者可以選擇任一角色，產生不同的幹話。
