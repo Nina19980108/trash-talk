@@ -8,7 +8,7 @@
 
   <h2 class="fw-light" style="color: rgba(240, 248, 255, 0.673);">你想對誰說幹話？</h2>
 
-  <form action="/" method="GET">
+  <form action="/trashTalk" method="GET">
 
     <div class="container d-flex justify-content-center mt-2">
 
@@ -49,7 +49,7 @@
 
       <button type="submit" class="btn btn-outline-secondary mx-3"
         style="color: rgba(240, 248, 255, 0.879);">產生幹話</button>
-      <textarea name="trash-talk" id="trash-talk" cols="100" rows="3"></textarea>
+      <textarea name="trash-talk" id="trash-talk" cols="100" rows="3">{{ trashTalk }}</textarea>
 
     </div>
 
