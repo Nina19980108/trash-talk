@@ -9,8 +9,7 @@
 
 ## Environment SetUp - 環境建置
 
-1. [MongoDB v4.0 以上](https://www.mongodb.com/download-center/community)
-2. [Node.js](https://nodejs.org/en/)
+1. [Node.js](https://nodejs.org/en/)
 
 ## Installing - 專案安裝流程
 
